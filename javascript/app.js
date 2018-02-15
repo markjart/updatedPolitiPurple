@@ -206,7 +206,7 @@ function queryAPI(newsSource1, newsSource2) {
 		newsBackBuilder(response, back1, count, article1Div);
 
 	 }).then(function (response){
-			var queryURL_FB1 = "http://webhose.io/filterWebContent?token=" + apiKeyFB + "&format=json&ts=1515290541502&sort=social.facebook.likes&q=%22" + newsTitle1 + "%22%20language%3Aenglish";
+			var queryURL_FB1 = "https://webhose.io/filterWebContent?token=" + apiKeyFB + "&format=json&ts=1515290541502&sort=social.facebook.likes&q=%22" + newsTitle1 + "%22%20language%3Aenglish";
 		
 	 		$.ajax({
 				url: queryURL_FB1,
@@ -245,7 +245,7 @@ function queryAPI(newsSource1, newsSource2) {
  		newsBackBuilder(response, back2, count, article2Div);
 		
 	 }).then(function(response) {
-			var queryURL_FB2 = "http://webhose.io/filterWebContent?token=" + apiKeyFB + "&format=json&ts=1515290541502&sort=social.facebook.likes&q=%22" + newsTitle2 + "%22%20language%3Aenglish";
+			var queryURL_FB2 = "https://webhose.io/filterWebContent?token=" + apiKeyFB + "&format=json&ts=1515290541502&sort=social.facebook.likes&q=%22" + newsTitle2 + "%22%20language%3Aenglish";
 		
 	 		$.ajax({
 	         url: queryURL_FB2,
