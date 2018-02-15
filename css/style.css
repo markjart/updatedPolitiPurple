@@ -281,7 +281,7 @@ canvas,.canvasjs-chart-canvas, #myChart{
     margin: auto;
 }
  canvas{
-    width: 100%;
+    width: 100% !important;
  }
 .canvasjs-chart-credit{
     display:none !important;
