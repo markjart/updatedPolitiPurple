@@ -30,7 +30,7 @@ var chartModal = $("#chartModal");
 var article1Div = $("<div>");
 var article2Div = $("<div>");
 
-// OBJECT newsSourcePair: pairings based on team agreement based on info from the article located at:  http://www.allgeneralizationsarefalse.com/the-chart-version-3-0-what-exactly-are-we-reading/
+// OBJECT newsSourcePair: pairings based on team agreement based on info from the article located at:  https://www.allgeneralizationsarefalse.com/the-chart-version-3-0-what-exactly-are-we-reading/
 var newsSourcePair = {
 	"pair1": ["the-washington-post", "time"],
 	"pair2": ["cnn", "the-economist"],
@@ -199,7 +199,7 @@ function queryAPI(newsSource1, newsSource2) {
 		newsBackBuilder(response, back1, count, article1Div);
 
 	 }).then(function (response){
-			var queryURL_FB1 = "http://webhose.io/filterWebContent?token=" + apiKeyFB + "&format=json&ts=1515290541502&sort=social.facebook.likes&q=%22" + newsTitle1 + "%22%20language%3Aenglish";
+			var queryURL_FB1 = "https://webhose.io/filterWebContent?token=" + apiKeyFB + "&format=json&ts=1515290541502&sort=social.facebook.likes&q=%22" + newsTitle1 + "%22%20language%3Aenglish";
 		
 	 		$.ajax({
 				url: queryURL_FB1,
@@ -238,7 +238,7 @@ function queryAPI(newsSource1, newsSource2) {
  		newsBackBuilder(response, back2, count, article2Div);
 		
 	 }).then(function(response) {
-			var queryURL_FB2 = "http://webhose.io/filterWebContent?token=" + apiKeyFB + "&format=json&ts=1515290541502&sort=social.facebook.likes&q=%22" + newsTitle2 + "%22%20language%3Aenglish";
+			var queryURL_FB2 = "https://webhose.io/filterWebContent?token=" + apiKeyFB + "&format=json&ts=1515290541502&sort=social.facebook.likes&q=%22" + newsTitle2 + "%22%20language%3Aenglish";
 		
 	 		$.ajax({
 	         url: queryURL_FB2,
