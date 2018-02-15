@@ -30,7 +30,7 @@ var chartModal = $("#chartModal");
 var article1Div = $("<div>");
 var article2Div = $("<div>");
 
-// OBJECT newsSourcePair: pairings based on team agreement based on info from the article located at:  http://www.allgeneralizationsarefalse.com/the-chart-version-3-0-what-exactly-are-we-reading/
+// OBJECT newsSourcePair: pairings based on team agreement based on info from the article located at:  https://www.allgeneralizationsarefalse.com/the-chart-version-3-0-what-exactly-are-we-reading/
 var newsSourcePair = {
 	"pair1": ["the-washington-post", "time"],
 	"pair2": ["cnn", "the-economist"],
