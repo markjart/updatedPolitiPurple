@@ -278,13 +278,9 @@ input, select{
 canvas,.canvasjs-chart-canvas, #myChart{
     border-radius: 5px;
     height: 400px !important;
-    margin: auto;
-    
+    margin: auto; 
 }
 
-#myChart{
-width: 100%;
-}
 
 .canvasjs-chart-credit{
     display:none !important;
