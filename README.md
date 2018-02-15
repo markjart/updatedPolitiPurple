@@ -7,7 +7,7 @@ What if you pull from both the left and the right?  Would it be fair to say that
 
 We think so! That's why we built **PolitiPurple** - One location for you to find news articles about the subjects that matter to you from both the Left and the Right side of the political spectrum.
 
-We assembled our news sources based on [The Chart, Version 3.0: What, Exactly, Are We Reading?](The Chart, Version 3.0: What, Exactly, Are We Reading?) and paired them with our best estimate as to an opposite news souorce.
+We assembled our news sources based on [The Chart, Version 3.0: What, Exactly, Are We Reading?](https://www.allgeneralizationsarefalse.com/the-chart-version-3-0-what-exactly-are-we-reading/) and paired them with our best estimate as to an opposite news souorce.
 
 The Liberal Left (Blue) | The Conservative Right (Red)
 -------- | ---------
