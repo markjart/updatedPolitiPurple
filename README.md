@@ -7,7 +7,7 @@ In this age of siloed thought people often stick to their _tried-and-true **it c
 
 One location for you to find news articles about the subjects that matter to you from both the Left and the Right side of the political spectrum.
 
-We assembled our news sources based on [The Chart, Version 3.0: What, Exactly, Are We Reading?](https://www.allgeneralizationsarefalse.com/the-chart-version-3-0-what-exactly-are-we-reading/) and paired them with our best estimate as to an opposite news souorce.
+We assembled our news sources and paired them with our best estimate as to an opposite news souorce based on [The Chart, Version 3.0: What, Exactly, Are We Reading](https://www.allgeneralizationsarefalse.com/the-chart-version-3-0-what-exactly-are-we-reading/).
 
 Liberal (Blue) Sources | Conservative (Red) Sources
 -------- | ---------
