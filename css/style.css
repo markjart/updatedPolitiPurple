@@ -371,5 +371,70 @@ footer {
 .push {
   height: 50px;
 }
-/*--------------*/
-/*--------------*/
+/* Tool Tip ========================= */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #6F6FAC;
+    color: #fff;
+    text-align: center;
+    font-size: 80%;
+    border-radius: 2px;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    bottom: 42px;
+}
+
+.rnc {
+    left: -67%;
+}
+
+.dnc {
+    right: -79%;
+}
+
+.dnc::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the right of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #6F6FAC transparent transparent;
+}
+
+.rnc::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #6F6FAC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/* END CSS --------------*/
