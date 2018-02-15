@@ -23,3 +23,15 @@ BuzzFeed | Breitbart News
    1.  You can click the titles of each article to go to the full story on the News site.
    1. You can choose to review other top articles about your subject from each news source (click the button - flip the card - see the article links).
    1. You can review the chart provided to see where your News Source falls within the political spectrum.
+
+### Test Searches
+
+1. **Subject:** Gun Violence, **News Source:** The Wall Street Journal
+    1. **Results:**  You should see an article from The Wall Street Journal and from The Huffington Post.
+1. **Subject:** DACA, **News Source:** CNN
+    1. **Results:**  You should see an article from CNN and from The Economist.
+ 1. **Subject:** Meuller, **News Source:** The Hill
+    1. **Results:**  You should see an article from The Hill and from The Guardian.   
+    
+    
+    
