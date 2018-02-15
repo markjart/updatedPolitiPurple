@@ -275,10 +275,11 @@ input, select{
     overflow-y: auto;
 }
 
-.canvasjs-chart-canvas, #myChart{
+canvas,.canvasjs-chart-canvas, #myChart{
     border-radius: 5px;
     height: 400px !important;
     margin: auto;
+
 }
 
 .canvasjs-chart-credit{
