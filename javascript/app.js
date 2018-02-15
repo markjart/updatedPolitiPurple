@@ -123,7 +123,6 @@ function newsFrontBuilder(results, front, articleDiv) {
 	else {
 		console.log("content not found");
 		likeDiv.append("<p>Likes not Available</p>");	
-		likeDiv.append(buttonDiv);	
 	}			
 		front.append(likeDiv);
 		front.append(buttonDiv);
@@ -218,7 +217,7 @@ function queryAPI(newsSource1, newsSource2) {
 		
 	     }).fail(function (jqXHR, textStatus, errorThrown) {
 		 console.log("Error Message  " + textStatus);
-		 newsFrontBuilder("", front1, article2Div);
+		 newsFrontBuilder("", front1, article1Div);
 		 });
 	}).fail(function (jqXHR, textStatus, errorThrown) {
         failNoRecord();
