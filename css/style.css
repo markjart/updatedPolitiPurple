@@ -412,9 +412,9 @@ footer {
 } 
 
 @media only screen and (max-width: 800px){
-/*    .modal-content-2 {
+    .modal-content-2 {
     width: 90% !important;
-    }*/
+    }
 
 }
 
@@ -444,11 +444,6 @@ footer {
     .chartInfo p{
         font-size: 12px;
     }
-
-/*    .leftArticle{
-        border-right:1px solid red;
-        border-top:1px solid red;
-    }*/
 
     
 }

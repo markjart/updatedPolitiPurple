@@ -264,7 +264,7 @@ function queryAPI(newsSource1, newsSource2) {
 
 if(lean==="left"){    
     $(".leftArticle").append(article1Div);
-    $(".leftArticle").css("border-right", "2px solid #301D6E");
+    stateManager.init();
     $(".buttonContainer").css("border-bottom", "1px solid #D0D0D0");
      $(".rightArticle").append(article2Div);
     lean="";
@@ -275,7 +275,7 @@ if(lean==="left"){
 else if (lean==="right"){
     article2Div.addClass("leftInfo");
     $(".leftArticle").append(article2Div);
-    $(".leftArticle").css("border-right", "2px solid #301D6E");
+    stateManager.init();
     $(".buttonContainer").css("border-bottom", "1px solid #D0D0D0");
     article1Div.addClass("rightInfo");
     $(".rightArticle").append(article1Div);
@@ -356,7 +356,39 @@ function failNoRecord()
 			"display": "none"
 		});
 	});	
+
+// media responsive border
 	
+	var stateManager = (function () {
+	var state = null;
+	var resizePage = function () {
+		if ($('body').width() < 600) {
+			if (state !== "mobile") {
+				displayMobile();
+			}
+		} else {
+			if (state !== "desktop") {
+				displayDesktop();
+			}
+		}
+	};
+	var displayMobile = function () {
+		state = "mobile";
+		$(".leftArticle").css("border-right", "0");
+	};
+	var displayDesktop = function () {
+		state = "desktop";
+		$(".leftArticle").css("border-right", "2px solid #301D6E");
+
+	};
+	return {
+		init: function () {
+			resizePage();
+			$(window).on('resize', resizePage);
+		}
+	};
+}());
+
 // END PAGE LOAD ====================================
 
 // START LISTENERS ====================================
@@ -479,4 +511,5 @@ $(".rightArticle").on("click",".toggle", function() {
 })
 
 // END LISTENERS ====================================
+
 // END FILE ====================================
