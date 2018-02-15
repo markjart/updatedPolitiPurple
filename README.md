@@ -18,5 +18,5 @@ BuzzFeed | Breitbart News
 
 ## How the Site Works
 
-1. When you first hit the site, enter a news subject and select a news source and hit _Search the News_ .  You can optionally provide your age and gender to aid us in demographics information.
-1. The page will load with the top **Liked** news article about your subject from your news source, _AND_ with the top **Liked** news article about your subject from the opposing news source (per the chart above).
+1. When you first hit the site, enter a news subject and select a news source and hit _Search the News_ .  You can optionally provide your age and gender to aid us in demographics information (saved to a database behind teh scenes).
+1. The page will load with the two top **Liked** news article about your subject from your news source _AND_ **the opposing news source (per the chart above)**.
