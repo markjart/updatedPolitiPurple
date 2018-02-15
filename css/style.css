@@ -275,7 +275,7 @@ input, select{
     overflow-y: auto;
 }
 
-canvas,.canvasjs-chart-canvas, #myChart{
+.canvasjs-chart-canvas, #myChart{
     border-radius: 5px;
     height: 400px !important;
     margin: auto;
