@@ -9,7 +9,7 @@ We think so! That's why we built **PolitiPurple** - One location for you to find
 
 We assembled our news sources based on [The Chart, Version 3.0: What, Exactly, Are We Reading?](The Chart, Version 3.0: What, Exactly, Are We Reading?) and paired them with our best estimate as to an opposite news souorce.
 
-The Left | The Right
+The Liberal Left (Blue) | The Conservative Right (Red)
 -------- | ---------
 The Washington Post | Time Magazine
 CNN | The Economist
