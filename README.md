@@ -1,15 +1,15 @@
 # PolitiPurple 
 ## For every news story there is an equal and opposite news story
 
-In this age of siloed thought people often stick to their _tried-and-true **confirms my beliefs** news sources_ with nary a thought, nor even an inkling of concern, for what the **other side** may have to say about the same subject.  But what if you are not inclined to be **just RED (Conservative)** or **just BLUE (Liberal)** in your thoughts and opinions?  
+In this age of siloed thought people often stick to their _tried-and-true **it confirms my beliefs** news sources_ with nary a thought, nor even an inkling of concern, for what the **other side** may have to say about the same subject.  But what if you are not inclined to be **just RED (Conservative)** or **just BLUE (Liberal)** in your thoughts and opinions?  What if you pull from both the left and the right?  Would it be fair to say that you are **purple** in your politics?
 
-What if you pull from both the left and the right?  Would it be fair to say that you are **purple** in your politics?
+### We think so! That's why we built **PolitiPurple** 
 
-We think so! That's why we built **PolitiPurple** - One location for you to find news articles about the subjects that matter to you from both the Left and the Right side of the political spectrum.
+- One location for you to find news articles about the subjects that matter to you from both the Left and the Right side of the political spectrum.
 
 We assembled our news sources based on [The Chart, Version 3.0: What, Exactly, Are We Reading?](https://www.allgeneralizationsarefalse.com/the-chart-version-3-0-what-exactly-are-we-reading/) and paired them with our best estimate as to an opposite news souorce.
 
-The Liberal Left (Blue) | The Conservative Right (Red)
+Liberal (Blue) Sources | Conservative (Red) Sources
 -------- | ---------
 The Washington Post | Time Magazine
 CNN | The Economist
