@@ -279,7 +279,11 @@ canvas,.canvasjs-chart-canvas, #myChart{
     border-radius: 5px;
     height: 400px !important;
     margin: auto;
-    width: 100% !important;
+    
+}
+
+#myChart{
+width: 100% !important;
 }
 
 .canvasjs-chart-credit{

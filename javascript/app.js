@@ -218,6 +218,7 @@ function queryAPI(newsSource1, newsSource2) {
 		
 	     }).fail(function (jqXHR, textStatus, errorThrown) {
 		 console.log("Error Message  " + textStatus);
+		 newsFrontBuilder("", front2, article2Div);
 		 });
 	}).fail(function (jqXHR, textStatus, errorThrown) {
         failNoRecord();
@@ -254,6 +255,7 @@ function queryAPI(newsSource1, newsSource2) {
 				var results = response.posts;		
 				newsFrontBuilder(results, front2, article2Div);	
 			}).fail(function (jqXHR, textStatus, errorThrown) {
+				newsFrontBuilder("", front2, article2Div);
 		 });
 	}).fail(function (jqXHR, textStatus, errorThrown) {
         failNoRecord();
