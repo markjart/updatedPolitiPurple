@@ -7,6 +7,13 @@ What if you pull from both the left and the right?  Would it be fair to say that
 
 We think so! That's why we built **PolitiPurple** - One location for you to find news articles about the subjects that matter to you from both the Left and the Right side of the political spectrum.
 
+We assembled our news sources based on [The Chart, Version 3.0: What, Exactly, Are We Reading?](The Chart, Version 3.0: What, Exactly, Are We Reading?) and paired them with our best estimate as to an opposite news souorce.
 
-Chances are you have to spend time navigating across multiple news sites trying to find articles about the subjects that matter to you.
-
+The Left | The Right
+-------- | ---------
+The Washington Post | Time Magazine
+CNN | The Economist
+The Guargian UK | The Hill
+The Huffington Post | The Wall Street Journal
+MSNBC | Fox News
+BuzzFeed | Breitbart News
