@@ -119,7 +119,6 @@ function newsFrontBuilder(results, front, articleDiv) {
 		console.log("news title 1  "  + newsTitle1);
 		console.log("Likes: " + results[0].thread.social.facebook.likes);
 		likeDiv.append("<p><i class='far fa-thumbs-up'></i>" + " " + results[0].thread.social.facebook.likes+ " " + "liked this</p>");
-		likeDiv.append(buttonDiv);
 	}
 	else {
 		console.log("content not found");
@@ -127,6 +126,7 @@ function newsFrontBuilder(results, front, articleDiv) {
 		likeDiv.append(buttonDiv);	
 	}			
 		front.append(likeDiv);
+		front.append(buttonDiv);
 		articleDiv.prepend(front);
 }
 
