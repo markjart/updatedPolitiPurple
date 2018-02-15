@@ -3,10 +3,9 @@
 
 In this age of siloed thought people often stick to their _tried-and-true **it confirms my beliefs** news sources_ with nary a thought, nor even an inkling of concern, for what the **other side** may have to say about the same subject.  But what if you are not inclined to be **just RED (Conservative)** or **just BLUE (Liberal)** in your thoughts and opinions?  
 
-#### What if you mix the left with the right together for your views? Would it be fair to say that you are PURPLE?  We think so! 
-##### That's why we built PolitiPurple 
+## Welcome to PolitiPurple!
 
-- One location for you to find news articles about the subjects that matter to you from both the Left and the Right side of the political spectrum.
+One location for you to find news articles about the subjects that matter to you from both the Left and the Right side of the political spectrum.
 
 We assembled our news sources based on [The Chart, Version 3.0: What, Exactly, Are We Reading?](https://www.allgeneralizationsarefalse.com/the-chart-version-3-0-what-exactly-are-we-reading/) and paired them with our best estimate as to an opposite news souorce.
 
