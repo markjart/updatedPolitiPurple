@@ -90,7 +90,7 @@ input, select{
 }
 
 .input-field input[type=text]:focus {
-     border-bottom: 1px solid #301D6E !important;
+     border-bottom: 1px solid #301D6E !/*important*/;
      box-shadow: 0 1px 0 0 #301D6E !important;
    }
 
@@ -411,9 +411,9 @@ footer {
 } 
 
 @media only screen and (max-width: 800px){
-    .modal-content-2 {
+/*    .modal-content-2 {
     width: 90% !important;
-    }
+    }*/
 
 }
 
