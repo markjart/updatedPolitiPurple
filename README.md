@@ -19,7 +19,7 @@ BuzzFeed | Breitbart News
 ## How the Site Works
 
 1. When you first hit the site, enter a news subject and select a news source and hit _Search the News_ .  You can optionally provide your age and gender to aid us in demographics information (saved to a database behind the scenes).
-1. The page will load with the two **Most Relevant** news article about your subject within the past month  - **one from your selected news source** _AND **one from_ the opposing news source (per the chart above)**.  We then show you how many people liked teh articles on facebook.
+1. The page will load with the two **Most Relevant** news article about your subject within the past month  - **one from your selected news source** _AND **one from_ the opposing news source (per the chart above)**.  We then show you how many people liked the articles on facebook.
    1.  You can click the titles of each article to go to the full story on the News site.
    1. You can choose to review other top articles about your subject from each news source (click the button - flip the card - see the article links).
    1. You can review the chart provided to see where your News Source falls within the political spectrum.
